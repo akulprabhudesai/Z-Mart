@@ -10,6 +10,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cache.Cache;
 
 import javax.sql.DataSource;
 
@@ -18,6 +19,8 @@ import javax.sql.DataSource;
 @EnableWebSecurity
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 	
+	
+
 	
 	 	@Autowired
 	    private BCryptPasswordEncoder bCryptPasswordEncoder;

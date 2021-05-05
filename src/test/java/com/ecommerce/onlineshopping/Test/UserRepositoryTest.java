@@ -76,4 +76,6 @@ public class UserRepositoryTest {
         assertEquals("USER", cur.getRole());
 	}
 	
+	
+	
 }
